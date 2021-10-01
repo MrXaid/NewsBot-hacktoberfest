@@ -13,7 +13,7 @@ news_list = sp_page.find_all("item")
 for news in news_list:
     a = news.title.text
     b = news.link.text
-    c = "You will  be hearing world's top news"
+    c = "You will  be hearing world's top news here you go"
     print(news.title.text)
     print(news.link.text)
     #print(news.pubDate.text)
